@@ -9,6 +9,7 @@ using NUnit.Framework;
 namespace Tests
 {
     [TestFixture]
+    [Parallelizable(ParallelScope.Children)] // Parameterized tests are considered child tests
     public class Tests
     {
         [TestCase(3)]

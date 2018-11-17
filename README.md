@@ -5,7 +5,8 @@ Requirements:
 
 - [x] Run in .NET Framework (optionally .NET core)
 - [x] Tests are parameterized.
-- [ ] Run tests in parallel.
+- [x] Run tests in parallel in the ReSharper Test runner.
+- [ ] Run tests in parallel in the Visual Studio Test runner. **Bug**?
 - [ ] Tests could be data driven.
 - [ ] Be able to run parameterized variations of the same test in parallel.
 
