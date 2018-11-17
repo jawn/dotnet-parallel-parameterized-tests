@@ -8,3 +8,8 @@ Requirements:
 * [ ] Tests could be data driven.
 * [ ] Be able to run parameterized variations of the same test in parallel.
 
+
+Observations:
+* NUnit 3: supported 🎉
+* MSTest V2: not supported yet, RFC 🗨️at https://github.com/Microsoft/testfx-docs/blob/master/RFCs/007-DataSource-Attribute-VS-ITestDataSource.md
+* xunit :  🛑 not supported by design.  potentially supported by extensibility.
