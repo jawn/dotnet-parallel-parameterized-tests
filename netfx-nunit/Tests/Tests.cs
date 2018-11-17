@@ -11,24 +11,14 @@ namespace Tests
     [TestFixture]
     public class Tests
     {
-        [Test]
-        public void TestThreeSeconds()
+        [TestCase(3)]
+        [TestCase(5)]
+        [TestCase(7)]
+        public void TestSimulateNumberOfSeconds(int testDurationInSeconds)
         {
-            SimulateSlowTest(3);
+            SimulateSlowTest(testDurationInSeconds);
         }
-
-        [Test]
-        public void TestFiveSeconds()
-        {
-            SimulateSlowTest(5);
-        }
-
-        [Test]
-        public void TestSevenSeconds()
-        {
-            SimulateSlowTest(7);
-        }
-
+        
         private static void SimulateSlowTest(int testDurationInSeconds)
         {
             int milliseconds = testDurationInSeconds * 1000;
