@@ -7,6 +7,7 @@ Requirements:
 - [x] Tests are parameterized.
 - [x] Run tests in parallel.
 - [x] Be able to run parameterized variations of the same test in parallel.
+- [x] Can run a single test variation from the Visual Studio test runner
 - [ ] Tests could be data driven.
 
 
