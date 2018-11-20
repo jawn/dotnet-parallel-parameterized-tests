@@ -6,8 +6,9 @@ Requirements:
 - [x] Run in .NET Framework (optionally .NET core)
 - [x] Tests are parameterized.
 - [x] Run tests in parallel.
+- [x] Be able to run parameterized variations of the same test in parallel.
 - [ ] Tests could be data driven.
-- [ ] Be able to run parameterized variations of the same test in parallel.
+
 
 
 Observations:
