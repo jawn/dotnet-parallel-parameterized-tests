@@ -13,6 +13,6 @@ Requirements:
 
 
 Observations:
-* NUnit 3: supported 🎉
+* NUnit 3: supported 🎉. Caveat: https://github.com/nunit/nunit/issues/2574
 * MSTest V2: not supported yet, RFC 🗨️at https://github.com/Microsoft/testfx-docs/blob/master/RFCs/007-DataSource-Attribute-VS-ITestDataSource.md
 * xunit :  🛑 not supported by design.  potentially supported by extensibility.
